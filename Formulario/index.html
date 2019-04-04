@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+aqui creamos los objetos que llevara la pagina web que con el archivo estilos.css personalizaremos 
+-->
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="description" content="taller formulario">
+    <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+    <meta name="author" content="Jose Luis">
+    
+    <title>Formulario para viaje a Alaska</title>
+</head>
+<body>
+   <form>
+    <header>
+    <h2 class="cabeza">Formulario registro</h2>
+    </header>
+    <div class="wrapper">
+    <div class="textos">
+        <section>
+        <input type="search" name="buscar" placeholder="Buscar">
+        <br>
+        <input type="text" name="nombre" id="nombre" placeholder="&#128101; Nombre" required autofocus> 
+        <br>
+        <input type="email" name="email" id="email" placeholder="&#128238; Correo electrónico" required>    
+        <br>
+        <input type="password" name="contraseña" id="contraseña" placeholder="&#128272; Contraseña" required>
+        <br>
+        <input type="password" name="contraseña" id="contraseña" placeholder="&#128272; Repita su contraseña" required>
+        <br>
+        <p>Suba una foto con un producto de Floristería Jose</p>  
+        <input type="file" required>    
+        <h4>Indique su género</h4>
+        <input type="radio" name="genero" value="Hombre"> Hombre
+        <input type="radio" name="genero" value="Mujer"> Mujer
+        <br>
+        Seleccione la fecha de su nacimiento
+        <br>
+        <input type="date"> 
+        <h5>Seleccione la ciudad en donde vive</h5>
+                <select id="ciudad" name="ciudad">
+                    <option value="NA">--Seleccione una opción--</option>
+                    <option value="c1">Bogotá</option>
+                    <option value="c2">Medellín</option>
+                    <option value="c3">Cali</option>
+                    <option value="c4">Barranquilla</option>
+                    <option value="c5">Cartagena de indias</option>
+                    <option value="c6">Soledad</option>
+                    <option value="c7">Cúcuta</option>
+                    <option value="c8">Ibagué</option>
+                    <option value="c9">Soacha</option>
+                    <option value="c10">Bucaramanga</option>
+                    <option value="c11">Santa marta</option>
+                    <option value="c12">Villaviciencio</option>
+                    <option value="c13">Bello</option>
+                    <option value="c14">Valledupar</option>
+                    <option value="c15">Pereira</option>
+                    <option value="c16">Buenaventura</option>
+                    <option value="c17">Pasto</option>
+                    <option value="c18">Manizales</option>
+                    <option value="c19">Montería</option>
+                    <option value="c20">Neiva</option>
+                </select>
+            <br>
+        <input type="checkbox" required> ¿Acepta la politica de privacidad de datos?
+        <br>
+        <input class='boton' type="reset" value="Limpiar">
+        <input class='boton' type="submit" value="Enviar">
+        </section>
+    </div>
+    </div>
+    </form>
+    <footer>
+    <p>
+         Desarrollo Web
+    </p>
+    </footer>
+</body>
+</html>

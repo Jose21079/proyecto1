@@ -1,0 +1,88 @@
+/*aqui creamos los estilos que llevara la pagina web*/ 
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(resources/background.jpg);
+    background-size: cover;
+    background-repeat: space;
+    background-attachment: fixed;
+}
+header{
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+.cabeza{
+    font-size: 160%;
+    color: black;
+}
+.wrapper{
+    text-align: center;
+
+}
+.textos{
+    font-family: 'Indie Flower', cursive;
+    color: black;
+}
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 2px;
+}
+input[type=email] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 2px;
+}
+input[type=password] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 2px;
+}
+input[name=genero]{
+    border:solid;
+    border-color: dodgerblue;
+}
+input[type=search]{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(resources/ic_search_black_24dp_1x.png);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=search]:focus {
+width: 40%;
+}
+select {
+    font-family: 'Roboto', sans-serif;
+    width: 20%;
+    padding: 8px 10px;
+    border: solid;
+    border-color: dodgerblue;
+    border-radius: 4px;
+    background-color:whitesmoke;
+}
+.boton{
+    border-style: solid;
+    border-color: dodgerblue
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    
+}
